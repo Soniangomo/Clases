@@ -1,73 +1,71 @@
+* {
+    padding: 0;
+}
 
-	* {
-		padding: 0;
-	}
+.header {
+    background: rgb(166, 138, 54);
+    color:rgb(5, 5, 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
 
-	.header {
-        background: lightseagreen;
-        color:white;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-        margin: 1rem;
-	}
+.section {
+    display: flex;
+    color: rgb(5, 5, 5);
+    height:500px;
 
-	.section {
-		display: flex;
-		color: rgb(255, 255, 255);
-        height:500px;
+}
 
-	}
+.aside{
+    background: rgb(166, 138, 54);
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
 
-    .aside{
-        background: rgb(4, 122, 116);
-		width: 30%;
-		display: flex;
-        align-items: center;
-		justify-content: center;
-        margin: 1rem;
-    }
-
-	.article {
-        background: rgb(235, 92, 4);
-		width: 100%;
-		display: flex;
-        margin: 1rem;
-        
-	}
+.article {
+    background: rgb(56, 154, 153);
+    width: 100%;
+    display: flex;
+    margin: 1rem;
     
-    .images{
-        display: flex;
-        align-items: center;
-		justify-content: center;
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 30%;
-    }
+}
 
-    .h1-article{
-        position: absolute;
-        top: 40%;
-        left: 59%
-    }
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
 
-    .img-class{
-        background: rgb(217, 208, 202);
-        display: flex;
-        width: 20rem;
-        height: 10rem;
-        align-items: center;
-		justify-content: center;
-        text-align: center;   
-        margin-right: 2rem;
-    }
+.h1-article{
+    position: absolute;
+    top: 40%;
+    left: 59%
+}
 
-	.footer {
-		background: lightseagreen;
-        color:white;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-        margin: 1rem;
-	}
+.img-class{
+    display: flex;
+    width: 20rem;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+    margin-right: 2rem;
+}
+
+.footer {
+    background: rgb(166, 138, 54);
+    color:rgb(5, 5, 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}

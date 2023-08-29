@@ -8,3 +8,5 @@ Temas a Estudiar HTML,CSS,JAVASCRIPT
 ```Ejercicio 2: Clon de Youtube```
 ```Ejercicio 3: Grid Layout```
 ```Ejercico 4: HTML & CSS: Curso practico avanzado```
+```Ejercicio 5: Maquetado 1```
+```Ejercicio 6: Maquetado 2```

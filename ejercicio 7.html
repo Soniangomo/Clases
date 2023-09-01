@@ -6,45 +6,51 @@
     <link rel="stylesheet" href="ejercicio 7 css.css">
     <title>PERFUME STORE</title>
     <style>
-        body,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5 {
-          font-family: 'Poppins', sans-serif;
-        }
-        body {
-          font-size: 16px;
-        }
-      </style>
+      body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .hero-image {
+    background-image: url(img/STORE.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align:left;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    color: rgb(4, 4, 4);
+  }
+    </style>
 </head>
 <body>
-    <!--Navbar (sits on top)-->
-    <div class="w3-top w3-bar w3-white w3-padding w3-card">
-        <a href="#home" class="w3-bar-item w3-button"><b>PERFUME STORE</b></a>
-        <div class="button">
-          <a href="#" class="button-menu">
-            <i class=" fas-fa-th"></i>
-          </a>
-          <a href="#" class="button-profile">
-            <img src="img/perfume.jpg" alt="Profile" width="35px">
-          </a>
+  <!--Navbar (sits on top)-->
+  <div class="w3-top w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>PERFUME STORE</b></a>
+  </div>
+  <br>
+  <header>
+    <div class="hero-image">
+        <div class="hero-text">
+          <hr
+          style="width:50px;border:5px solid rgb(241, 50, 12)"
+          class="w3-round"
+        />
+            <h1 style="font-size: 55px; color: rgb(0, 0, 0);"><b>PERFUME</b> STORE</h1>
+            <p style="font: size 15px;px; font-family: Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); text-align:justify;" >
+              <b>Perfume is a key to our memerories</b>
+            </p>
+            <button style="border-radius: 10px; color: rgb(0, 0, 0); padding: 5px;background-color: rgb(241, 50, 12);">PRESS ENTER</button>
         </div>
     </div>
-    <header>
-        <!-- Page Start -->
-    <div id="home" class="w3-content" style="max-width:1564px">
-        <!-- Image in Display Container -->
-        <div class="w3-display-container w3-content" style="max-width:1500px;">
-        <img src="img/Maison.jpg" alt="Maison Francis Kurkdjian" width="1500px">
-        <div class="w3-display-middle w3-margin-top w3-center">
-          <h1 class="w3-xxlarge w3-text-white w3-wide">
-            <span class="w3-padding w3-black w3-opacity-min">Perfume is the key</span>
-            <span class="w3-hide-small w3-text-light-grey">to our memeories</span>
-        </div>
-    </div> 
-    </header>
+</header>
+  <div>
     <!--Page content-->
     <div class="grid-container">
       <div class="grid-item item1">LADY EMBLEM L'EAU</div>

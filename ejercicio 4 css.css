@@ -31,12 +31,12 @@ body{
 }
 
 body::-webkit-scrollbar{
-  width: 25px;
+  width: 5px;
 }
 
 body::-webkit-scrollbar-thumb{
   background-color: var(--scroll-color);
-  border-radius: 10px;
+  border-radius: 1px;
 }
 
 button{

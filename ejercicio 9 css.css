@@ -1,0 +1,31 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+div {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+}
+.container {
+    position: relative;
+    margin: 50px auto ;
+    text-align: center;
+}
+.box1 {
+    background-color: rosybrown;
+}
+.box2 {
+    background-color: royalblue;
+}
+.box3 {
+    background-color:yellowgreen;
+}
+.box4 {
+    background-color: goldenrod;
+}
+.box5 {
+    background-color: aqua;
+}

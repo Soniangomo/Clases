@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="LogIn.css">
+    <title>LogIn Page</title>
+</head>
+<body>
+    <span class="background"></span>
+    <span class="cenetering">
+        <form class="my form">
+            <span class="login-welcome-row">
+                <img class="login-welcome" src="img/Spa start page.jpg" alt="AyLi Login page"/>
+                <h1>AyLi Spa & Therapy Center</h1>
+            </span>
+            <div class="text-field">
+                <label for="emai"></label>
+                <input
+                aria-label="Email"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                required
+                >
+            </div>
+            <div class="text-field">
+                <label for="password"></label>
+                <input
+                aria-label="Password"
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Your Password"
+                title="Minimun 6 characters at least 1 Alphabet and 1 Number"
+                pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$"
+                required
+                >
+            </div>
+            <input type="submit" class="my-form_button" value="Login"/>
+            <div class="my-form_actions">
+                <span>Did you forget your password?</span>
+                <a href="#" title="Reset Password"> Reset Password</a>
+            </div>
+            <div class="my-form_signup">
+                <a href="#" title="Create Account"> Create Account</a>
+            </div>
+        </form>
+    </span>
+</body>
+</html>

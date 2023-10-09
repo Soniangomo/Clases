@@ -1,0 +1,168 @@
+:root {
+    --primary: #000000;
+    --primary-hover: #000100;
+    --secondary: #000000;
+    --secondary-hover: #000000;
+    --aura: #ffffff;
+    --background: #9ff2b4;
+}
+*{
+    margin: 500;
+    padding: 500;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--background);
+}
+h1 {
+    color: var(--secondary);
+}
+.background {
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    display: grid;
+    place-items: center;
+    background-color: url(img/Spa\ start\ page.jpg);
+    opacity: 0.5;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.centering {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+    width: 100px;
+}
+.my-form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 45px;
+    background-color: var(--background);
+    border: 1px solid var(--primary);
+    box-shadow: 0 20px 60px var(--aura);
+    min-width: 100px;
+    max-width: 260px;
+    width: 100%;
+    padding: 30px;
+}
+.login-welcome {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.login-welcome-row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.my-form_button {
+    background-color: var(--primary);
+    color: var(--background);
+    white-space: nowrap;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    line-height: 18px;
+    outline: none;
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 100;
+    min-height: 10px;
+    width: 20%;
+    border-radius: 2px;
+    box-shadow: 0.5px 5px rgba(0,0,0,.15);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.text-fiel input {
+    color: var(--secondary);
+    font-size: 50px;
+    font-weight: 500;
+    max-width: 100%;
+    width: 100%;
+    border: 10px solid var(--secondary);
+    height: 50px;
+    letter-spacing: 0.3em;
+    background-color: transparent;
+    outline: none;
+    transition: .25s;
+    border-radius: 8px;
+    text-indent: 20px;
+    margin-top: 8px;
+}
+.my-form_button:hover {
+    background-color: var(--primary-hover);
+}
+.text-field {
+    position: relative;
+}
+.text-field input::-webkit-input-placeholder {
+    color: var(--secondary-hover);
+}
+.text-field img {
+    position: absolute;
+    right: -2px; bottom: -4px; width: 30px; 
+    height: 30px;
+    transform: translate (-50%, -50%); 
+    transform-origin: center;
+    }
+.text-field input:focus {
+    border: 1px solid var(--primary);
+}
+.text-field label{
+    color: var(- -secondary);
+    font-weight: 600; 
+    letter-spacing: 03rem; z-index: 10;
+}
+.input-icon{
+    position: absolute;
+    bottom: 0;
+    top: 55%;
+    right: 8px;
+    transform: translate (-50%,-000)
+    transform-origin: center;
+}
+.my -form_actions {
+    display: flex;
+    flex-direction: column; 
+    color: var(--secondary);
+    gap: 16px; 
+    margin-top: 8px;
+}
+.my-form_actions a {
+    color: var(--secondary) ; 
+    font-weight: 600;
+}
+.my-form_actions a:hover {
+    color:#a7a2cb;
+}
+.my-form__row {
+    display: flex; 
+    justify-content: space-between;
+}
+.my-form_signup { 
+    display: flex;
+    justify-content:left;
+}
+.my-form__signup a {
+    color: var(--primary); 
+    font-weight: 800;
+    text-decoration: none: 
+    font-size: 18px;
+}
+.my-form_signup a:hover {
+    color: var(--primary-hover);
+}
+    

@@ -135,7 +135,7 @@ h1 {
     transform-origin: center;
 }
 .my -form_actions {
-    display: flex;
+    display: flex; 
     flex-direction: column; 
     color: var(--secondary);
     gap: 16px; 
